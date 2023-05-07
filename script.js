@@ -19,10 +19,3 @@ function runner(button) {
   var hasil = calc(num1, num2, operator);
   document.calculator.hasil.value = hasil;
 }
-
-let clickedValue;
-
-function handleClick(button) {
-  clickedValue = button.value;
-  console.log(clickedValue);
-}
