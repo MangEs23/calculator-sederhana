@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+* {
+  font-family: 'Architects Daughter', cursive;
+}
+
 table {
     border: none;
     border-collapse: collapse;
@@ -18,4 +24,10 @@ table {
     border: 1px solid #ccc;
     border-radius: 14px;
     box-sizing: border-box;
+    font-size: large;
+  }
+
+ #result {
+    border-radius: 14px;
+    background-color: #ccc;
   }

@@ -12,7 +12,9 @@
           <tr>
             <td colspan="2"><input type="number" name="num1" /></td>
             <td colspan="2"><input type="number" name="num2" /></td>
-            <td colspan="2" rowspan="3"><input name="hasil" disabled /></td>
+            <td colspan="2" rowspan="3" id="result">
+              <h1 id="hasil"></h1>
+            </td>
           </tr>
           <tr>
             <td>
@@ -53,7 +55,7 @@
               <input
                 class="button"
                 type="reset"
-                onclick="handleClick(this)"
+                onclick="rst()"
                 value="reset"
               />
             </td>
