@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Calculator Sederhana</h1>
+    <form name="calculator">
+      <table>
+        <tbody>
+          <tr>
+            <td colspan="2"><input type="number" name="num1" /></td>
+            <td colspan="2"><input type="number" name="num2" /></td>
+            <td colspan="2" rowspan="3"><input name="hasil" disabled /></td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                class="button"
+                type="button"
+                onclick="runner(this)"
+                value="+"
+              />
+            </td>
+            <td>
+              <input
+                class="button"
+                type="button"
+                onclick="runner(this)"
+                value="-"
+              />
+            </td>
+            <td>
+              <input
+                class="button"
+                type="button"
+                onclick="runner(this)"
+                value="*"
+              />
+            </td>
+            <td>
+              <input
+                class="button"
+                type="button"
+                onclick="runner(this)"
+                value="/"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4">
+              <input
+                class="button"
+                type="reset"
+                onclick="handleClick(this)"
+                value="reset"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
+<script src="./script.js"></script>
